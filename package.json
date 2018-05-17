@@ -1,0 +1,43 @@
+{
+    "name": "react-final-scaffolding",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "prop-types": "^15.6.1",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "react-intl": "^2.4.0",
+        "react-redux": "^5.0.7",
+        "react-router": "^4.2.0",
+        "react-router-dom": "^4.2.2",
+        "react-scripts": "1.1.4",
+        "redux": "^4.0.0",
+        "redux-thunk": "^2.2.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "jest --env=jsdom --config=jest.config.json --testPathPattern src/",
+        "test:ci": "jest --env=jsdom --config=jest.config.json --ci --no-cache --testPathPattern src/",
+        "test:coverage": "jest --env=jsdom --config=jest.config.json --testPathPattern src/ --coverage",
+        "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.2.3",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-import": "^2.11.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-prettier": "^2.6.0",
+        "eslint-plugin-react": "^7.8.2",
+        "jest": "^22.4.3",
+        "jest-environment-jsdom": "^22.4.3",
+        "prettier": "^1.12.1",
+        "redux-mock-store": "^1.5.1"
+    }
+}
