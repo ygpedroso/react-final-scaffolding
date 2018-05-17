@@ -23,3 +23,6 @@
 
 ## Deployment
 * Easy deployment of the final app using `docker`.
+
+## License
+react-final-scaffolding is [MIT-licensed](https://github.com/ygpedroso/react-final-scaffolding/blob/master/LICENSE).
