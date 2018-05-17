@@ -2,6 +2,14 @@
     "name": "react-final-scaffolding",
     "version": "0.1.0",
     "private": true,
+    "keywords": [
+        "react",
+        "react-scripts",
+        "react-redux",
+        "react-router",
+        "react-intl",
+        "jest"
+    ],
     "dependencies": {
         "prop-types": "^15.6.1",
         "react": "^16.3.2",
